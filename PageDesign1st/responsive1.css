@@ -1,0 +1,339 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px) {
+  
+  
+   /* CSS */
+
+/* .text-box h1 {
+    font-size: 30px;
+}
+
+.nav-links ul li {
+    display: block;
+}
+
+.nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+}
+
+nav.fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-links ul {
+    padding: 30px;
+}
+
+.row {
+    flex-direction: column;
+}
+
+.testimonials-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.cta h1 {
+    font-size: 24px;
+}
+    
+  } */
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+   /* CSS */
+
+/* .text-box h1 {
+    font-size: 30px;
+}
+
+.nav-links ul li {
+    display: block;
+}
+
+.nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+}
+
+nav.fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-links ul {
+    padding: 30px;
+}
+
+.row {
+    flex-direction: column;
+}
+
+.testimonials-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.cta h1 {
+    font-size: 24px;
+} */
+
+/* }  */
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav.fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .cta h1 {
+        font-size: 24px;
+    }
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+    /* CSS */
+
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav.fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .cta h1 {
+        font-size: 24px;
+    }
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    /* CSS */
+
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav.fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .cta h1 {
+        font-size: 24px;
+    }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 360px) and (max-width: 645px) {
+    /* CSS */
+
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav.fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .cta h1 {
+        font-size: 24px;
+    }
+}
