@@ -1,0 +1,212 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+  
+      .navbar{
+          padding: 0;
+  
+      }
+      .logo{
+          position: absolute;
+          top: 30px;
+          left: 30px;
+  
+      }
+      .item{
+          flex-direction: column;
+          width: 100%;
+          height: 100vh;
+          justify-content: center;
+          background: darkslategray;
+          /* margin-top: -900px; */
+      }
+      .mobile menu{
+          margin-top: 0px;
+      }
+      .item li{
+          margin: 30px auto;
+      }
+  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .navbar{
+      padding: 0;
+
+  }
+  .logo{
+      position: absolute;
+      top: 30px;
+      left: 30px;
+
+  }
+  .item{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background: red;
+      /* margin-top: -900px; */
+  }
+  .mobile menu{
+      margin-top: 0px;
+  }
+  .item li{
+      margin: 30px auto;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .navbar{
+      padding: 0;
+
+  }
+  .logo{
+      position: absolute;
+      top: 30px;
+      left: 30px;
+
+  }
+  .item{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background: grey;
+      /* margin-top: -900px; */
+  }
+  .mobile menu{
+      margin-top: 0px;
+  }
+  .item li{
+      margin: 30px auto;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .navbar{
+      padding: 0;
+
+  }
+  .logo{
+      position: absolute;
+      top: 30px;
+      left: 30px;
+
+  }
+  .item{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background: skyblue;
+      /* margin-top: -900px; */
+  }
+  .mobile menu{
+      margin-top: 0px;
+  }
+  .item li{
+      margin: 30px auto;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .navbar{
+      padding: 0;
+
+  }
+  .logo{
+      position: absolute;
+      top: 30px;
+      left: 30px;
+
+  }
+  .item{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background: black;
+      /* margin-top: -900px; */
+  }
+  .mobile menu{
+      margin-top: 0px;
+  }
+  .item li{
+      margin: 30px auto;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .navbar{
+      padding: 0;
+
+  }
+  .logo{
+      position: absolute;
+      top: 30px;
+      left: 30px;
+
+  }
+  .item{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background: purple;
+      /* margin-top: -900px; */
+  }
+  .mobile menu{
+      margin-top: 0px;
+  }
+  .item li{
+      margin: 30px auto;
+  }
+    
+  }

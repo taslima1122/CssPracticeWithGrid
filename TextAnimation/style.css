@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+    background: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.text{
+    font-size: 70px;
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: text 6s steps(24) infinite;
+    border-right: 4px solid black;
+}
+
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 25ch;
+    }
+}

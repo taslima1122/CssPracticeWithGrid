@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(81, 91, 95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+.list a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgba(241, 234, 234, 0.897);
+    display: inline-block;
+}
+
+.list a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #ededf5;
+    transition: all.5s;
+}
+
+.list a:hover:after {
+    width: 100%;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    border: 1px solid navy;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main-img {
+    max-width: 670px;
+    height: auto;
+}
+
+.content {
+    width: 30%;
+}
+
+main h1 {
+    font-size: 55px;
+    color: #133b4f;
+}
+
+main h2 {
+    font-size: 35px;
+    color: #1a1102;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+main p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #133b4f;
+    line-height: 31.5px;
+    margin: 30px 0;
+
+}
+
+button {
+    padding: 15px 30px;
+    background: #c4c4f7;
+    color: rgb(12, 1, 1);
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.animationBG h2 {
+    background: #021722;
+    height: 250px;
+    width: 100%;
+    color: #ededf5;
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.test {
+    display: flex;
+    color: #ededf5;
+
+}
+
+.animationBG {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.animationBG::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/second.avif);
+    animation: imgChange 2s linear 2s infinite;
+
+}
+
+.animationBG::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/second1.jpg);
+    animation: imgChangetwo 2s linear 2s infinite;
+
+
+}
+
+@keyframes imgChange {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes imgChangetow {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@media screen and(max-width:600px){
+    .list{
+        flex-direction: column;
+        padding: 10px;
+
+    }
+    .list a{
+        background-color: lightblue;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+}

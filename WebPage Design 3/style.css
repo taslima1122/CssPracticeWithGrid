@@ -74,6 +74,7 @@
     word-spacing: 15px;
 }
 
+
 .navbar {
     display: flex;
     padding: 0 2%;
@@ -110,6 +111,11 @@ ul li.active_links a {
     color: rgb(86, 206, 86);
 }
 
+.get-icons {
+    margin: 10px;
+    padding: 10px;
+}
+
 .btn-get {
     width: 200px;
     height: 80px;
@@ -118,10 +124,19 @@ ul li.active_links a {
     border: none;
     display: flex;
     align-items: center;
-    font-weight: bold;
-    padding: 0 10%;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
     font-size: 20px;
     cursor: pointer;
+
+}
+
+.btn-get:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
 }
 
 .main {
@@ -206,6 +221,14 @@ ul li.active_links a {
     padding: 14px;
     font-size: 20px;
     color: var(--lightGreen);
+}
+
+.icon-box:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
 }
 
 .experience-part {
@@ -569,9 +592,12 @@ ul li.active_links a {
 
 }
 
-.button-res11 :hover {
-    background: #fff;
-
+.button-res11:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
 }
 
 .plus-icon {
@@ -587,6 +613,14 @@ ul li.active_links a {
     margin-right: 50px;
     cursor: pointer;
     padding: 5px;
+}
+
+.plus-icon:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
 }
 
 .project {
@@ -851,6 +885,14 @@ ul li.active_links a {
     font-weight: 900;
 }
 
+.client-icon1:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
+}
+
 .last-part {
     width: 100%;
     text-align: center;
@@ -910,6 +952,14 @@ ul li.active_links a {
     display: inline-block;
 }
 
+.footer-icons:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
+}
+
 .contact-text h1 {
     width: fit-content;
     margin-bottom: 30px;
@@ -965,7 +1015,13 @@ input {
     font-weight: 700;
 }
 
-
+.int-btn:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
+}
 
 .btn-testy {
     width: 140px;
@@ -980,6 +1036,14 @@ input {
     border: none;
     margin-top: 8px;
     margin-bottom: 15px;
+}
+
+.btn-testy:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
 }
 
 .need-icon {
@@ -1001,4 +1065,12 @@ input {
     border: none;
     margin-top: 8px;
     margin-bottom: 25px;
+}
+
+.btn-back:hover {
+    content: "";
+    background: #5fd15f;
+    opacity: 5;
+    transition: all 0.8s;
+    color: var(--green);
 }

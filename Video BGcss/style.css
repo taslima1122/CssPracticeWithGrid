@@ -35,7 +35,7 @@ nav .logo{
 }
 
 nav ul li{
-    list-style: none;
+    /* list-style: none; */
     display: inline-block;
     margin-left: 40px;
 }
